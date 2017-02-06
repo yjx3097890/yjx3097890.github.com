@@ -15,7 +15,9 @@
       </div>
     </div>
     <!-- Post Excerpt -->
-    <div class="excerpt typo"><%- post.excerpt || __('no_excerpt') %></div>
+    <a href="<%- url_for(post.path) %>" class="excerpt-link">
+      <div class="excerpt typo"><%- post.excerpt || __('no_excerpt') %></div>
+    </a>
     <!-- Post Tags -->
     <div class="tags">
       <% if (post.tags && post.tags.length) { %>

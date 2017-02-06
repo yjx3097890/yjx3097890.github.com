@@ -37,3 +37,60 @@
       display none
   .post-content
     font-size remify(12.5px)
+
+
+#article-nav
+  position: relative
+  @media mq-normal
+    margin: 10px 0
+    height: 58px
+    &:before
+      absolute-center(8px)
+      content: ""
+      border-radius: 50%
+      background: color-border
+      box-shadow: 0 1px 2px #fff
+
+.article-nav-link-wrap
+  text-decoration: none
+  color: color-grey
+  box-sizing: border-box
+  margin-top: block-margin
+  text-align: center
+  display: block
+  &:hover
+    color: color-default
+  @media mq-normal
+    width: 50%
+    margin-top: 0
+
+#article-nav-newer
+  @media mq-normal
+    text-align: right
+    padding-right: 20px
+    float left
+
+#article-nav-older
+  @media mq-normal
+    text-align: left
+    padding-left: 20px
+    float right
+
+.article-nav-caption
+  text-transform: uppercase
+  letter-spacing: 2px
+  color: color-border
+  line-height: 1em
+  font-weight: bold
+  #article-nav-newer &
+    margin-right: -2px
+
+.article-nav-title
+  font-size: 0.85em
+  line-height: line-height
+  margin-top: 0.5em
+
+#comments
+  padding: 10px;
+  @media mq-normal
+    padding: 20px 40px;

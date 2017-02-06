@@ -2,10 +2,11 @@
 menu:
   主页: /
   文章: /archives
+  About: /about
   # change github and email values to your own addresses
   Github: https://github.com/yjx3097890
-  Email: mailto:315644588@qq.com
-# rss: /atom.xml
+  #Email: mailto:315644588@qq.com
+  #rss: /atom.xml
 
 # Set to false to disable banner
 use_header_cover: true
@@ -35,7 +36,7 @@ archive_type: 'monthly'
 show_count: false
 
 # favicon
-favicon: /favicon.png
+favicon: /img/favicon.jpg
 
 # Google Analytics Tracking ID
 google_analytics:

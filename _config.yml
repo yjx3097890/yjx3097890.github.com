@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yanjixian.com
+url: http://yanjixian.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -67,8 +67,17 @@ pagination_dir: page
 theme: aero-dual
 theme_style: dark
 
+disqus_shortname: yanjixian
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: 120.27.6.228
+  user: yjx
+  root: /home/yjx/blog/
+  delete: true
+  verbose: true
+
+
 
