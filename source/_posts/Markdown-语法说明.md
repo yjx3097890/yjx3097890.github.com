@@ -1,8 +1,8 @@
 ---
 title: Markdown 语法说明
 date: 2017-02-06 11:51:19
-tags: Markdown
-categories: 
+tags: [Markdown]
+categories: [计算机技术]
 cover: /img/default-banner-light.jpg
 comments: true
 ---
